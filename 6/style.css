@@ -1,0 +1,38 @@
+.btn-holder {
+  padding-top: 20px;
+  text-align: center;
+}
+button {
+  outline: 0;
+  display: inline-block;
+  height: var(--height);
+  --height: 40px;
+  border-radius: calc(var(--height) / 2);
+  color: cornsilk;
+  background-color: #6750a4;
+  padding: 0 24px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  margin: 0 30px 10px 0;
+}
+.hovered:hover {
+  outline: 0;
+  color: #6750a4;
+  background-color: yellow;
+  cursor: pointer;
+}
+.disabled:disabled {
+  background-color: rgb(151, 151, 151);
+  color: #e2d9ff;
+}
+.pressed:active {
+  outline: 0;
+  background-color: yellow;
+  color: #6750a4;
+}
+.focused:focus {
+  outline: 0;
+  color: #6750a4;
+  background-color: yellow;
+}
