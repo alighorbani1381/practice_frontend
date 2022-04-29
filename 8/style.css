@@ -1,0 +1,260 @@
+@import url("fonts.css");
+
+* {
+  direction: rtl;
+  font-family: IRANSans_FaNam;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card-outlined {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: #79747e;
+  outline: 1px solid #79747e;
+}
+.card-outlined-body p {
+  text-align: center;
+  margin-top: 45%;
+}
+
+/* Hover */
+.card-outlined-hover {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: #79747e;
+  outline: 1px solid #79747e;
+}
+.card-outlined-hover:hover {
+  box-shadow: #79747e;
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+/* Focused */
+.card-outlined-focus {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: #79747e;
+  outline: 1px solid #79747e;
+}
+.card-outlined-focus:focus {
+  box-shadow: #1c1b1f;
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+/* pressed */
+.card-outlined-active {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: #79747e;
+  outline: 1px solid #79747e;
+}
+.card-outlined-active:active {
+  box-shadow: #79747e;
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+/* dragged */
+.card-outlined-drag {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: #79747e;
+  outline: 1px solid #79747e;
+}
+.card-outlined-drag:drop-hover {
+  box-shadow: #79747e;
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+.card-filled {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #e7e0ec;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.card-filled-body p {
+  text-align: center;
+  margin-top: 45%;
+}
+
+/* Hover */
+.card-filled-hover {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #e7e0ec;
+  border-radius: 10px;
+  box-shadow: #000000;
+}
+.card-filled-hover:hover {
+  box-shadow: 1px 1px 1px #aaaaaa;
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+/* Focused */
+.card-filled-focus {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #e7e0ec;
+  border-radius: 10px;
+  box-shadow: #000000;
+}
+.card-filled-focus:focus {
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+/* Pressed */
+.card-filled-active {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #e7e0ec;
+  border-radius: 10px;
+  box-shadow: #000000;
+}
+.card-filled-active:active {
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+/* Dragged */
+.card-filled-drag {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #e7e0ec;
+  border-radius: 10px;
+  box-shadow: #000000;
+}
+.card-filled-drag:drop-hover {
+  background-color: #1c1b1f;
+  color: white;
+  opacity: 0.7;
+}
+
+.card-elevated {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-elevated-body p {
+  text-align: center;
+  margin-top: 45%;
+}
+
+/* Hovered */
+.card-elevated-hover {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-elevated-hover:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 25px 0 rgba(0, 0, 0, 0.19);
+  background-color: #1c1b1f;
+  color: white;
+}
+/* Focused */
+.card-elevated-focus {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-elevated-focus:focus {
+  background-color: #1c1b1f;
+  color: white;
+}
+/* Pressed */
+.card-elevated-active {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-elevated-active:active {
+  background-color: #1c1b1f;
+  color: white;
+}
+/* Dragged */
+.card-elevated-drag {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #fffbfe;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-elevated-drag:drop-hover {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 18px 35px 0 rgba(0, 0, 0, 0.19);
+  background-color: #1c1b1f;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+h1 {
+  text-align: center;
+}
+p.pmain {
+  text-align: center;
+  margin-top: -15px;
+}
+
+/* Main Part */
+.main {
+  width: 80%;
+  padding: 10px;
+  background: linear-gradient(45deg, #673ab7, #f44336);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
+hr {
+  border: 2px solid white;
+  margin: 30px 0;
+}
