@@ -1,0 +1,171 @@
+@import url("fonts.css");
+
+:root {
+  --nice-black: #303030;
+}
+
+* {
+  direction: rtl;
+  font-family: IRANSans_FaNam;
+}
+
+body {
+  margin: 0;
+}
+.logo {
+  vertical-align: -30px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logo-holder {
+  display: inline-block;
+  width: max-content;
+  margin-left: -32px;
+}
+
+.logo-banner {
+  width: 35%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.nav-rightmenu {
+  display: inline-flex;
+  display: inline-flex;
+  padding-top: 10px;
+  vertical-align: -10px;
+}
+
+.nav-rightmenu ul {
+  list-style: none;
+}
+
+.nav-rightmenu li {
+  display: inline-flex;
+  margin-right: 15px;
+  color: var(--nice-black);
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #9500e4, #581089);
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.cards-holder {
+  display: flex;
+  padding: 110px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.line {
+  height: 3px;
+  top: 50px;
+  background: #f3f3f3;
+  position: absolute;
+  width: 82%;
+}
+
+.card {
+  text-decoration: none;
+  color: var(--nice-black);
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 0 10px #00000029 !important;
+  border-radius: 5px;
+  min-height: 415px;
+  margin-top: 35px;
+  width: 285px !important;
+}
+
+.card__content {
+  padding: 25px;
+}
+
+.card__image {
+  width: inherit;
+}
+
+.card__content__description {
+  margin-top: 20px;
+  color: #8c8c8c;
+}
+
+.website-title {
+  text-align: center;
+  color: #7393cd;
+}
+
+#footer {
+  background-color: #333;
+  font-size: 12.5px;
+  padding: 1em 0;
+  --footer-color-text: #f2c96a;
+  --footer-color-text-pale: white;
+}
+
+#footer > .container {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+  padding: 2em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer .ft-logo {
+  text-align: center;
+  margin: 1em 3em 1em 4em;
+}
+#footer .ft-links .column {
+  flex: 1 0 auto;
+  padding: 1em;
+}
+#footer .ft-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 1 auto;
+}
+#footer .ft-links .group {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+}
+#footer .ft-links .column .col-header {
+  color: var(--footer-color-text);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6em;
+  margin: 0 0 0.8em;
+}
+
+#footer .ft-links .links > .item {
+  display: block;
+  color: var(--footer-color-text-pale);
+  line-height: 2em;
+  white-space: nowrap;
+}
